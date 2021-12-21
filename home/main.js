@@ -5,8 +5,8 @@ const table = document.querySelector(".contentsTable")
 const tableHeader = document.querySelector(".table-header")
 // Parties    
 // Table Header 
-    const thId = document.createElement("th")
-    thId.innerHTML = "ID";
+    const thIdParty = document.createElement("th")
+    thIdParty.innerHTML = "ID";
     const thPartyName = document.createElement("th")
     thPartyName.innerHTML = "Party name";
     const thLeader = document.createElement("th")
@@ -42,14 +42,12 @@ function getParties(){
 }
 
 
-
     
-
 // Display all parties
 partiesBtn.addEventListener("click", () => {
     
     tableHeader.append(
-        thId,
+        thIdParty,
         thPartyName,
         thLeader);
 
@@ -57,5 +55,3 @@ partiesBtn.addEventListener("click", () => {
     
 });
 
-
-        

@@ -8,7 +8,7 @@
 }
 
 /* Navbar links */
-.topnav a {
+.topnav a{
 
     display: block;
     text-transform: uppercase;
@@ -32,7 +32,8 @@
 
  /* the main greeting text */
 .greeting-div {
-    color: var(--light-text);
+    
+    color: #000;
     text-align: center;
     padding: 30px;
 }
@@ -64,138 +65,14 @@
 .contentsTable tr:hover {background-color: #ddd;}
 
 
-:root {
-    --bg-color: rgba(255, 255, 255, 0.454);
-    --light-text: rgb(199, 199, 199);
-  }
+
   
-  body {
+body {
     
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  /* sliding images below nav */
-  marquee figure img {
-    max-height: 200px;
-  }
-  
-  #slider {
-    background-color: var(--bg-color);
-    margin-top: 20px;
-  }
-  
-  .slider-movie-poster {
-    max-width: 200px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+}
   
  
   
-  /* all the buttons for movie selection */
-  .selection-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    grid-row: 20px;
-  }
-  
-  .selection-buttons button,
-  #free-seats-button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(109, 109, 109);
-    color: var(--light-text);
-    margin: 15px;
-    max-width: 200px;
-  }
-  
-  .selection-buttons button:hover,
-  #free-seats-button:hover {
-    background-color: rgb(52, 55, 121);
-  }
-  
-  #show-button {
-    background-color: rgb(85, 85, 104);
-  }
-  
-  /* movie rendering section */
-  #movie-div,
-  #available-seats-card {
-    max-width: 80vw;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--bg-color);
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  
-  #movie-div h1,
-  #movie-div p {
-    padding: 20px;
-  }
-  
-  #movie-div img {
-    max-width: 50vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.317),
-      0 6px 20px 0 rgba(0, 0, 0, 0.413);
-    padding: 20px;
-  }
-  
-  #movie-div,
-  #free-seats-button,
-  #available-seats-card {
-    margin: 20 auto 20 auto;
-    padding: 20px;
-  }
-  
-  /* modal functionality via css */
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(41, 60, 122, 0.687);
-  }
-  
-  .modal-content {
-    background-color: rgb(225, 225, 225);
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  /* confirmation message */
-  .confirmation_message {
-    min-height: 100px;
-  }
-  
+ 
